@@ -3,19 +3,19 @@
 }
 
 body{
+    background-image: url(images\minions.jpg);
+   
     margin: 0%;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(244, 241, 237);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .nav{
    background-color:   var(--primary-color);
     height: 9rem;
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
+    border-bottom: 5px solid black;
+    border-bottom-left-radius:1rem;
+    border-bottom-right-radius:1rem;
 
-    border: black;
-    width: 100%;
     margin: 0%;
     padding: 0%;
 }
@@ -32,6 +32,7 @@ body{
 
 
 .txt-area{
+    font-family:'Courier New', Courier, monospace;
     font-size: 25px;
     border-radius: 1rem;
     border-width: 4px;
@@ -47,12 +48,22 @@ body{
    
 }
 
+#output{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+   
+}
+
+
+
 ::placeholder{
     font-size: 1.5rem;
     padding-left: 1rem;
 }
 
-.btn-translate{
+#btn-translate{
     background-color: var(--primary-color);
     padding: 0.5rem 1rem;
     border-radius: 0.7rem;
@@ -68,7 +79,10 @@ body{
 
 .footer{
     background-color:var(--primary-color);
-    border-radius: 1rem;
+    border-top: 5px solid black;
+    border-top-left-radius:1rem;
+    border-top-right-radius:1rem;
+    /* border-radius: 1rem; */
     
 }
 
@@ -90,3 +104,28 @@ p{
     font-size:large;
 }
 
+.p1{
+    font-size: 30px;
+    font-weight: bold;
+    font-family:serif;
+}
+
+
+
+#btn-translate{
+    background-color: yellow;
+    color: black;
+    transition: background-color 0.5s;
+  }
+  
+  #btn-translate:hover {
+    background-color: rgb(238, 93, 3);
+    font-size: 1.5rem;
+    border-radius: 2rem;
+  }
+  
+  #btn-translate:focus,
+  #btn-translate::content{
+    background-color: yellow;
+    transition: none;
+  }
