@@ -1,0 +1,28 @@
+:root{
+    --primary-color:yellow;
+}
+
+
+.nav{
+   background-color:   var(--primary-color);
+    height: 9rem;
+    border-radius: 1rem;
+}
+
+.nav-heading{
+    padding-top: 1.5rem;
+    font-weight: bolder;
+    font-size: 4rem;
+}
+
+.txt-area{
+
+    padding-top: 1rem;
+    height: 10rem;
+    width: 40rem;
+}
+.txtarea{
+    padding-top: 4rem;
+    display: block;
+   
+}
