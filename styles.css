@@ -19,10 +19,26 @@
 
     padding-top: 1rem;
     height: 10rem;
-    width: 40rem;
+    width: 50rem;
 }
-.txtarea{
-    padding-top: 4rem;
-    display: block;
+.txtarea1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
    
+}
+
+.btn-translate{
+    background-color: var(--primary-color);
+    padding: 0.5rem 1rem;
+    border-radius: 0.7rem;
+    font-size: larger;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
 }
