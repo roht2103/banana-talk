@@ -3,15 +3,13 @@
 }
 
 body{
-    /* background-image: url(images\minions.jpg); */
+    background-image: url(images\minions.jpg);
    
     margin: 0%;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-/* .bg-img{
-    background-image-src: (images\minions.jpg);
-} */
+
 
 .nav{
    background-color:   var(--primary-color);
@@ -133,7 +131,6 @@ p{
   #btn-translate:hover {
     background-color: rgb(238, 93, 3);
     font-size: 1.5rem;
-    border-radius: 2rem;
   }
   
   #btn-translate:focus,

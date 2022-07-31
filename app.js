@@ -2,7 +2,7 @@ var btnTranslate = document.querySelector("#btn-translate");
 var txtInput = document.querySelector("#text-input");
 var outputDiv = document.querySelector("#output");
 
-var serverURL = "https://api.funtranslations.com/translate/minion.json";
+var serverURL = "https://api.funtranslations.com/translate/yoda.json";
 
 function getTranslatedURL(text) {
   return serverURL + "?" + "text=" + text;
