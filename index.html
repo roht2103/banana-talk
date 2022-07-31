@@ -8,26 +8,32 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <nav class="nav">
-      <div class="nav-heading">Talk Banana</div>
-    </nav>
+    <div class="bg-img">
+      <nav class="nav">
+        <div class="nav-heading">Talk Banana</div>
+      </nav>
 
-    <div class="txtarea1">
-      <textarea id="text-input" placeholder="type here to Translate"></textarea>
+      <div class="txtarea1">
+        <textarea
+          id="text-input"
+          placeholder="type here to Translate"
+        ></textarea>
+      </div>
+      <div class="center">
+        <button id="btn-translate">Translate to Banana</button>
+      </div>
+
+      <span>
+        <p class="p1">Translated text will be here👇</p>
+      </span>
+
+      <span class="txtarea1">
+        <div id="output"></div>
+      </span>
+
+      <br />
     </div>
-    <div class="center">
-      <button id="btn-translate">Translate to Banana</button>
-    </div>
 
-    <span>
-      <p class="p1">Translated text will be here👇</p>
-    </span>
-
-    <span class="txtarea1">
-      <div id="output"></div>
-    </span>
-
-    <br />
     <script src="app.js" type="text/javascript"></script>
   </body>
 

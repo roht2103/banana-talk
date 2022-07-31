@@ -9,6 +9,10 @@ body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/* .bg-img{
+    background-image-src: (images\minions.jpg);
+} */
+
 .nav{
    background-color:   var(--primary-color);
     height: 9rem;
@@ -56,6 +60,8 @@ body{
     height: 10rem;
     width: 50rem;
     padding: 2rem;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 25px;
    
 }
 
@@ -71,6 +77,9 @@ body{
     padding: 0.5rem 1rem;
     border-radius: 0.7rem;
     font-size: larger;
+    border-bottom: 7px solid black;
+    border-left: 7px solid black;
+
 }
 
 .center{
@@ -118,7 +127,7 @@ p{
 #btn-translate{
     background-color: yellow;
     color: black;
-    transition: background-color 2s;
+    transition: background-color 0.5s;
   }
   
   #btn-translate:hover {
