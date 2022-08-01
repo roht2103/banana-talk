@@ -13,7 +13,7 @@ body{
 
 .nav{
    background-color:   var(--primary-color);
-    height: 9rem;
+    height: auto;
     border-bottom: 5px solid black;
     border-bottom-left-radius:1rem;
     border-bottom-right-radius:1rem;
@@ -23,9 +23,10 @@ body{
 }
 
 .nav-heading{
-    padding-top: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     font-weight: bolder;
-    font-size: 4rem;
+    font-size: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,7 +98,7 @@ body{
 }
 
 .footer-content{
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.5rem;
 }
 
 h1{
@@ -110,7 +111,7 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0rem 1rem;
+    padding: 0rem 0.5rem;
     font-size:large;
 }
 
